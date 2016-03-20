@@ -84,6 +84,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
       <map>
@@ -1070,12 +1073,12 @@
       <created>1458310521846</created>
       <option name="number" value="Default" />
       <updated>1458310521846</updated>
-      <workItem from="1458310526595" duration="462000" />
+      <workItem from="1458310526595" duration="959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="462000" />
+    <option name="totallyTimeSpent" value="959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="271" y="28" width="1440" height="807" extended-state="0" />
