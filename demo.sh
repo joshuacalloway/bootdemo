@@ -1,3 +1,6 @@
+#!/usr/bin/env sh
 
-rm -f ~/.aws/bootdemo.pem
-docker run -v ~/.aws:/root/.aws bootdemo $1
+appname=bootdemo
+rm -f ~/.aws/${appname}.pem
+docker rm -f ${appname} || echo ""
+docker run --name ${appname} -v ~/.aws:/root/.aws $appname $1
